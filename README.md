@@ -1,6 +1,6 @@
 # Elbow Method Implementation for K-Means Clustering
 
-This repository provides an R implementation of the Elbow Method to determine the optimal number of clusters for K-Means clustering.
+This repository provides a Python implementation of the Elbow Method to determine the optimal number of clusters for K-Means clustering.
 
 ## Purpose:
 
@@ -10,16 +10,16 @@ This repository provides an R implementation of the Elbow Method to determine th
 
 ## Implementation:
 
-* Uses R's `kmeans` function to perform K-Means clustering.
+* Uses Python's `scikit-learn` library to perform K-Means clustering.
 * Calculates the Within-Cluster Sum of Squares (WCSS) for various 'k' values.
 * Generates a plot of WCSS against 'k' to visualize the "elbow" point.
 * Provides the WCSS values and the user-selected optimal 'k'.
 
 ## Usage:
 
-1.  Install necessary R packages (e.g., `ggplot2`, `dplyr`).
+1.  Install necessary Python packages (e.g., `scikit-learn`, `matplotlib`).
 2.  Input your dataset or generate sample data.
-3.  Run the provided R script (`elbow_method.Rmd`).
+3.  Run the provided Python script (`elbow_method.py`).
 4.  Visually inspect the generated plot to identify the "elbow" point.
 5.  Input the optimal 'k' value as prompted by the script.
 6.  Interpret output:
